@@ -70,7 +70,7 @@ namespace Project2
         private bool CheckState()
         {
             //Horizontal
-            if(button1.Text == button2.Text && button2.Text == button3.Text && button3.Text != "")
+            if(button1.Text == button2.Text && button2.Text == button3.Text && button3.Text == button4.Text && button4.Text == button5.Text && button5.Text != "")
             {
                 if(button1.Text[0] == Playerchar)
                 {
@@ -87,9 +87,9 @@ namespace Project2
                 return true;
             }
 
-            else if (button4.Text == button5.Text && button5.Text == button6.Text && button6.Text != "")
+            else if (button6.Text == button7.Text && button7.Text == button8.Text && button8.Text == button9.Text && button9.Text == button10.Text && button10.Text != "")
             {
-                if (button4.Text[0] == Playerchar)
+                if (button6.Text[0] == Playerchar)
                 {
                     label1.Text = "You Won!";
                     MessageBox.Show("You Won!");
@@ -104,9 +104,43 @@ namespace Project2
                 return true;
             }
 
-            else if (button7.Text == button8.Text && button8.Text == button9.Text && button9.Text != "")
+            else if (button11.Text == button12.Text && button12.Text == button13.Text && button13.Text == button14.Text && button14.Text == button15.Text && button15.Text != "")
             {
-                if (button7.Text[0] == Playerchar)
+                if (button11.Text[0] == Playerchar)
+                {
+                    label1.Text = "You Won!";
+                    MessageBox.Show("You Won!");
+                }
+
+                else
+                {
+                    label1.Text = "You Lose!";
+                    MessageBox.Show("You Lose!");
+                }
+
+                return true;
+            }
+
+            else if (button16.Text == button17.Text && button17.Text == button18.Text && button18.Text == button19.Text && button19.Text == button20.Text && button20.Text != "")
+            {
+                if (button16.Text[0] == Playerchar)
+                {
+                    label1.Text = "You Won!";
+                    MessageBox.Show("You Won!");
+                }
+
+                else
+                {
+                    label1.Text = "You Lose!";
+                    MessageBox.Show("You Lose!");
+                }
+
+                return true;
+            }
+
+            if (button21.Text == button22.Text && button22.Text == button23.Text && button23.Text == button24.Text && button24.Text == button25.Text && button25.Text != "")
+            {
+                if (button21.Text[0] == Playerchar)
                 {
                     label1.Text = "You Won!";
                     MessageBox.Show("You Won!");
@@ -122,7 +156,7 @@ namespace Project2
             }
 
             //Vertical
-            else if (button1.Text == button4.Text && button4.Text == button7.Text && button7.Text != "")
+            else if (button1.Text == button6.Text && button6.Text == button11.Text && button11.Text == button16.Text && button16.Text == button21.Text && button21.Text != "")
             {
                 if (button1.Text[0] == Playerchar)
                 {
@@ -139,7 +173,7 @@ namespace Project2
                 return true;
             }
 
-            else if (button2.Text == button5.Text && button5.Text == button8.Text && button8.Text != "")
+            else if (button2.Text == button7.Text && button7.Text == button12.Text && button12.Text == button17.Text && button17.Text == button22.Text && button22.Text != "")
             {
                 if (button2.Text[0] == Playerchar)
                 {
@@ -156,7 +190,7 @@ namespace Project2
                 return true;
             }
 
-            else if (button3.Text == button6.Text && button6.Text == button9.Text && button9.Text != "")
+            else if (button3.Text == button8.Text && button8.Text == button13.Text && button13.Text == button18.Text && button18.Text == button23.Text && button23.Text != "")
             {
                 if (button3.Text[0] == Playerchar)
                 {
@@ -173,8 +207,42 @@ namespace Project2
                 return true;
             }
 
+            else if (button4.Text == button9.Text && button9.Text == button14.Text && button14.Text == button19.Text && button19.Text == button24.Text && button24.Text != "")
+            {
+                if (button4.Text[0] == Playerchar)
+                {
+                    label1.Text = "You Won!";
+                    MessageBox.Show("You Won!");
+                }
+
+                else
+                {
+                    label1.Text = "You Lose!";
+                    MessageBox.Show("You Lose!");
+                }
+
+                return true;
+            }
+
+            else if (button5.Text == button10.Text && button10.Text == button15.Text && button15.Text == button20.Text && button20.Text == button25.Text && button25.Text != "")
+            {
+                if (button5.Text[0] == Playerchar)
+                {
+                    label1.Text = "You Won!";
+                    MessageBox.Show("You Won!");
+                }
+
+                else
+                {
+                    label1.Text = "You Lose!";
+                    MessageBox.Show("You Lose!");
+                }
+
+                return true;
+            }
+
             //Diagonal
-            else if (button1.Text == button5.Text && button5.Text == button9.Text && button9.Text != "")
+            else if (button1.Text == button7.Text && button7.Text == button13.Text && button13.Text == button19.Text && button19.Text == button25.Text && button25.Text != "")
             {
                 if (button1.Text[0] == Playerchar)
                 {
@@ -191,9 +259,9 @@ namespace Project2
                 return true;
             }
 
-            else if (button3.Text == button5.Text && button5.Text == button7.Text && button7.Text != "")
+            else if (button5.Text == button9.Text && button9.Text == button13.Text && button13.Text == button17.Text && button17.Text == button21.Text && button21.Text != "")
             {
-                if (button3.Text[0] == Playerchar)
+                if (button5.Text[0] == Playerchar)
                 {
                     label1.Text = "You Won!";
                     MessageBox.Show("You Won!");
@@ -209,7 +277,7 @@ namespace Project2
             }
 
             //Draw
-            else if(button1.Text != "" && button2.Text != "" && button3.Text != "" && button4.Text != "" && button5.Text != "" && button6.Text != "" && button7.Text != "" && button8.Text != "" && button9.Text != "")
+            else if(button1.Text != "" && button2.Text != "" && button3.Text != "" && button4.Text != "" && button5.Text != "" && button6.Text != "" && button7.Text != "" && button8.Text != "" && button9.Text != "" && button10.Text != "" && button11.Text != "" && button12.Text != "" && button13.Text != "" && button14.Text != "" && button15.Text != "" && button16.Text != "" && button17.Text != "" && button18.Text != "" && button19.Text != "" && button20.Text != "" && button21.Text != "" && button22.Text != "" && button23.Text != "" && button24.Text != "" && button25.Text != "")
             {
                 label1.Text = "I'ts a Draw!";
                 MessageBox.Show("I'ts a Draw!");
@@ -230,6 +298,22 @@ namespace Project2
             button7.Enabled = false;
             button8.Enabled = false;
             button9.Enabled = false;
+            button10.Enabled = false;
+            button11.Enabled = false;
+            button12.Enabled = false;
+            button13.Enabled = false;
+            button14.Enabled = false;
+            button15.Enabled = false;
+            button16.Enabled = false;
+            button17.Enabled = false;
+            button18.Enabled = false;
+            button19.Enabled = false;
+            button20.Enabled = false;
+            button21.Enabled = false;
+            button22.Enabled = false;
+            button23.Enabled = false;
+            button24.Enabled = false;
+            button25.Enabled = false;
         }
 
         private void UnFreezeBoard()
@@ -252,6 +336,38 @@ namespace Project2
                 button8.Enabled = true;
             if(button9.Text == "")
                 button9.Enabled = true;
+            if (button10.Text == "")
+                button10.Enabled = true;
+            if (button11.Text == "")
+                button11.Enabled = true;
+            if (button12.Text == "")
+                button12.Enabled = true;
+            if (button13.Text == "")
+                button13.Enabled = true;
+            if (button14.Text == "")
+                button14.Enabled = true;
+            if (button15.Text == "")
+                button15.Enabled = true;
+            if (button16.Text == "")
+                button16.Enabled = true;
+            if (button17.Text == "")
+                button17.Enabled = true;
+            if (button18.Text == "")
+                button18.Enabled = true;
+            if (button19.Text == "")
+                button19.Enabled = true;
+            if (button20.Text == "")
+                button20.Enabled = true;
+            if (button21.Text == "")
+                button21.Enabled = true;
+            if (button22.Text == "")
+                button22.Enabled = true;
+            if (button23.Text == "")
+                button23.Enabled = true;
+            if (button24.Text == "")
+                button24.Enabled = true;
+            if (button25.Text == "")
+                button25.Enabled = true;
         }
 
         private void ReceiveMove()
@@ -277,6 +393,38 @@ namespace Project2
                 button8.Text = OpponentChar.ToString();
             if (buffer[0] == 9)
                 button9.Text = OpponentChar.ToString();
+            if (buffer[0] == 10)
+                button10.Text = OpponentChar.ToString();
+            if (buffer[0] == 11)
+                button11.Text = OpponentChar.ToString();
+            if (buffer[0] == 12)
+                button12.Text = OpponentChar.ToString();
+            if (buffer[0] == 13)
+                button13.Text = OpponentChar.ToString();
+            if (buffer[0] == 14)
+                button14.Text = OpponentChar.ToString();
+            if (buffer[0] == 15)
+                button15.Text = OpponentChar.ToString();
+            if (buffer[0] == 16)
+                button16.Text = OpponentChar.ToString();
+            if (buffer[0] == 17)
+                button17.Text = OpponentChar.ToString();
+            if (buffer[0] == 18)
+                button18.Text = OpponentChar.ToString();
+            if (buffer[0] == 19)
+                button19.Text = OpponentChar.ToString();
+            if (buffer[0] == 20)
+                button20.Text = OpponentChar.ToString();
+            if (buffer[0] == 21)
+                button21.Text = OpponentChar.ToString();
+            if (buffer[0] == 22)
+                button22.Text = OpponentChar.ToString();
+            if (buffer[0] == 23)
+                button23.Text = OpponentChar.ToString();
+            if (buffer[0] == 24)
+                button24.Text = OpponentChar.ToString();
+            if (buffer[0] == 25)
+                button25.Text = OpponentChar.ToString();
         }
 
 
@@ -354,6 +502,134 @@ namespace Project2
             byte[] num = { 9 };
             sock.Send(num);
             button9.Text = Playerchar.ToString();
+            MessageReceiver.RunWorkerAsync();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            byte[] num = { 10 };
+            sock.Send(num);
+            button10.Text = Playerchar.ToString();
+            MessageReceiver.RunWorkerAsync();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            byte[] num = { 11 };
+            sock.Send(num);
+            button11.Text = Playerchar.ToString();
+            MessageReceiver.RunWorkerAsync();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            byte[] num = { 12 };
+            sock.Send(num);
+            button12.Text = Playerchar.ToString();
+            MessageReceiver.RunWorkerAsync();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            byte[] num = { 13 };
+            sock.Send(num);
+            button13.Text = Playerchar.ToString();
+            MessageReceiver.RunWorkerAsync();
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            byte[] num = { 14 };
+            sock.Send(num);
+            button14.Text = Playerchar.ToString();
+            MessageReceiver.RunWorkerAsync();
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            byte[] num = { 15 };
+            sock.Send(num);
+            button15.Text = Playerchar.ToString();
+            MessageReceiver.RunWorkerAsync();
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            byte[] num = { 16 };
+            sock.Send(num);
+            button16.Text = Playerchar.ToString();
+            MessageReceiver.RunWorkerAsync();
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            byte[] num = { 17 };
+            sock.Send(num);
+            button17.Text = Playerchar.ToString();
+            MessageReceiver.RunWorkerAsync();
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            byte[] num = { 18 };
+            sock.Send(num);
+            button18.Text = Playerchar.ToString();
+            MessageReceiver.RunWorkerAsync();
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            byte[] num = { 19 };
+            sock.Send(num);
+            button19.Text = Playerchar.ToString();
+            MessageReceiver.RunWorkerAsync();
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            byte[] num = { 20 };
+            sock.Send(num);
+            button20.Text = Playerchar.ToString();
+            MessageReceiver.RunWorkerAsync();
+        }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            byte[] num = { 21 };
+            sock.Send(num);
+            button21.Text = Playerchar.ToString();
+            MessageReceiver.RunWorkerAsync();
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            byte[] num = { 22 };
+            sock.Send(num);
+            button22.Text = Playerchar.ToString();
+            MessageReceiver.RunWorkerAsync();
+        }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            byte[] num = { 23 };
+            sock.Send(num);
+            button23.Text = Playerchar.ToString();
+            MessageReceiver.RunWorkerAsync();
+        }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+            byte[] num = { 24 };
+            sock.Send(num);
+            button24.Text = Playerchar.ToString();
+            MessageReceiver.RunWorkerAsync();
+        }
+
+        private void button25_Click(object sender, EventArgs e)
+        {
+            byte[] num = { 25 };
+            sock.Send(num);
+            button25.Text = Playerchar.ToString();
             MessageReceiver.RunWorkerAsync();
         }
 

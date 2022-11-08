@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mr0c3vIqIEci2pXT/u6iijjfN7CbzfKWwB8C2UV/F14v/1U7v82/m+DVanTqBPh0Q1SQdTZyqKQ+9A2XAnmpgw==",
+  "dgSpecHash": "1bH67z5bAKp90m4lmr0ephZXogrpo7UDTqce8xdVR1+4s5LX33gjDtW85ybVAedNElcb1MikGF/mUXO139RJjw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ACER\\source\\repos\\Project2\\Database\\Database.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\ACER\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-    "C:\\Users\\ACER\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\ACER\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
-    "C:\\Users\\ACER\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
-    "C:\\Users\\ACER\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\ACER\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
